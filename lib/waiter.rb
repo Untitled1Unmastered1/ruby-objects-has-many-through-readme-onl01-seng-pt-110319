@@ -1,4 +1,3 @@
-require 'pry'
 class Waiter
   attr_accessor :name, :yrs_experience 
   
@@ -29,6 +28,5 @@ class Waiter
     meal_a.tip <=> meal_b.tip
   end 
   best_tipped_meal.customer
-  binding.pry 
   end 
 end 
